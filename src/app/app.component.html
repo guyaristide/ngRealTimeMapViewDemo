@@ -1,0 +1,26 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <p-toolbar>
+    <div class="ui-toolbar-group-left">
+      <img [src]="appState" alt="Connection state" /> <b>{{appStateLabel}}</b>
+    </div>
+
+    <div class="ui-toolbar-group-right">
+      <button pButton type="button" icon="pi pi-search"></button>
+      <button pButton type="button" icon="pi pi-calendar" class="ui-button-success"></button>
+      <button pButton type="button" icon="pi pi-times" class="ui-button-danger"></button>
+    </div>
+  </p-toolbar>
+
+
+  <p-panel>
+    <p-header>
+      <div class="ui-helper-clearfix">
+        <span class="ui-panel-title" style="font-size:16px;display:inline-block;margin-top:2px">Custom Header</span>
+      </div>
+    </p-header>
+    <div id="myRealMap">
+
+    </div>
+  </p-panel>
+</div>
